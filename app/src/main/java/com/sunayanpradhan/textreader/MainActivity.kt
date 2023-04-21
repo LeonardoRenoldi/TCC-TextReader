@@ -10,8 +10,10 @@ import androidx.databinding.DataBindingUtil
 import com.google.mlkit.vision.common.InputImage
 import com.google.mlkit.vision.text.TextRecognition
 import com.google.mlkit.vision.text.latin.TextRecognizerOptions
-import com.sunayanpradhan.textrecognitiontutorial.R
-import com.sunayanpradhan.textrecognitiontutorial.databinding.ActivityMainBinding
+import com.sunayanpradhan.textreader.databinding.ActivityMainBinding
+
+
+
 
 class MainActivity : AppCompatActivity() {
 
