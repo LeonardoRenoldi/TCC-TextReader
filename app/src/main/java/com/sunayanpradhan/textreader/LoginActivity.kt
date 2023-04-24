@@ -20,9 +20,14 @@ class LoginActivity : AppCompatActivity() {
         setContentView(binding.root)
 
        val botao_registro = binding.buttonRegister
+        val botao_logar = binding.buttonLogin
 
 
         botao_registro.setOnClickListener {
+            startActivity(Intent(this@LoginActivity,RegistroActivity::class.java))
+        }
+
+        botao_logar.setOnClickListener {
             startActivity(Intent(this@LoginActivity,RegistroActivity::class.java))
         }
 
