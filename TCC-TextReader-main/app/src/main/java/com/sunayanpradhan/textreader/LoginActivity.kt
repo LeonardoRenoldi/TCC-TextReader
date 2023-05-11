@@ -1,12 +1,9 @@
 package com.sunayanpradhan.textreader
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.sunayanpradhan.textreader.databinding.ActivityLoginBinding
-
-
-
+import androidx.appcompat.app.AppCompatActivity
+import com.leonardo.textreader.databinding.ActivityLoginBinding
 
 
 class LoginActivity : AppCompatActivity() {

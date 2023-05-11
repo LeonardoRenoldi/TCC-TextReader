@@ -1,16 +1,23 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'io.realm.kotlin'
+
+
 }
 
 android {
-    namespace 'com.sunayanpradhan.textreader'
-    compileSdk 32
+    namespace 'com.leonardo.textreader'
+    compileSdk 33
+
+    viewBinding{
+        true
+    }
 
     defaultConfig {
-        applicationId "com.sunayanpradhan.textreader"
+        applicationId "com.leonardo.textreader"
         minSdk 21
-        targetSdk 32
+        targetSdk 33
         versionCode 1
         versionName "1.0"
 
@@ -40,16 +47,33 @@ android {
 }
 
 dependencies {
-
+    implementation platform('androidx.compose:compose-bom:2023.01.00')
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.5.1'
+    implementation 'androidx.lifecycle:lifecycle-runtime-ktx:2.5.1'
+    implementation 'androidx.activity:activity-compose:1.6.1'
+    implementation "androidx.compose.ui:ui"
+    implementation "androidx.compose.ui:ui-tooling-preview"
+
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     testImplementation 'junit:junit:4.13.2'
+
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
     implementation 'org.mongodb:mongodb-driver-sync:4.2.3'
 
+    //Mongo Realm
+    implementation 'io.realm.kotlin:library-base:1.8.0'
+    implementation 'io.realm.kotlin:library-sync:1.8.0'
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.0")
+
+    //Dagger Hilt
+    implementation 'com.google.dagger:hilt-android:2.46'
+
+
+    //MLKit
     implementation 'com.google.android.gms:play-services-mlkit-text-recognition:18.0.2'
 
 }
+
