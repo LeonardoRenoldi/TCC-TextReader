@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="102dp"
         android:layout_marginBottom="31dp"
-        android:hint="usuário"
+        android:hint="Email"
         android:textAlignment="center"
         android:textSize="30dp"
         app:layout_constraintBottom_toTopOf="@+id/password_input"

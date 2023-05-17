@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1013757628785",
+    "project_id": "textviewer-e9054",
+    "storage_bucket": "textviewer-e9054.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013757628785:android:e6ad818ae75d6bbe4926d0",
+        "android_client_info": {
+          "package_name": "com.leonardo.textreader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1013757628785-l3kvg1gm6f18gkt66uced4dfl333mlrm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFatqHYDWyyUxbmnpMc3ipC8gpVV7CZM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1013757628785-l3kvg1gm6f18gkt66uced4dfl333mlrm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
